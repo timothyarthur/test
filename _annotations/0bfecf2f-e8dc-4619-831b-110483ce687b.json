@@ -4,16 +4,14 @@ order: 1
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "0bfecf2f-e8dc-4619-831b-110483ce687b.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Test</p>"
-        }
+    "oa:annotatedAt": "2023-03-09T21:30:00.481Z",
+    "oa:annotatedBy": [
+        "timothyarthur"
     ],
     "on": [
         {
@@ -27,7 +25,7 @@ order: 1
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M12216.67749,232.05584h236.47845v0h236.47845v163.21849v163.21849h-236.47845h-236.47845v-163.21849z\"  id=\"rectangle_902fb578-05e6-4979-8396-74ea55518c42\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M12216.67749,232.05584h236.47845v0h236.47845v163.21849v163.21849h-236.47845h-236.47845v-163.21849z\"  id=\"rectangle_902fb578-05e6-4979-8396-74ea55518c42\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"15.69856\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +34,12 @@ order: 1
             }
         }
     ],
-    "oa:annotatedAt": "2023-03-09T21:30:00.481Z",
-    "@id": "0bfecf2f-e8dc-4619-831b-110483ce687b.json",
-    "oa:annotatedBy": [
-        "timothyarthur"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Test</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2023-03-09T21:30:31.076Z"
 }
